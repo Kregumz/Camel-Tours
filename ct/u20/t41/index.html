@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CamelTours</title>
+    <link rel="shortcut icon" href="http://cameltours.org/media/img/CamelToursIcon.ico"/>
+    <link rel="stylesheet" href="http://cameltours.org/media/css/swiper.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/normalize.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/app.css">
+  </head>
+  <body>
+    <div class="outer-centerer">
+      <div class="middle-centerer">
+        <div class="inner-centerer text-center">
+          <h2>Welcome to David Smalley Sculpture Trail: A joint venture of Connecticut College and the Lyman Allyn Art Museum!</h2>
+          <div id="mapHolder"></div>
+		<script>
+		    function myMap() {
+		    		var i = 1
+				var mapHolder = document.getElementById("mapHolder");
+				mapHolder.style.width ="100%"
+				mapHolder.style.height ="400px"
+				var mapDiv = document.createElement("div");
+				mapDiv.setAttribute("id","map");
+				mapDiv.style.width ="100%"
+				mapDiv.style.height ="400px"
+				mapHolder.appendChild(mapDiv);
+				var mapOptions = {
+		                	center: new google.maps.LatLng(41.3736260000,-72.1031450000),
+			        	zoom: 17
+	             		};
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				var label1 = "02"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3736060000,-72.1034100000),label:label2,
+					title:"02. Double Yellow, 1967; Sundance I, 1967; Viva I, 1968"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n179\">02. Double Yellow, 1967; Sundance I, 1967; Viva I, 1968</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "01"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3736040000,-72.1031660000),label:label2,
+					title:"01. David Smalley Sculpture Trail Introduction - Lyman Allyn Art Museum"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n180\">01. David Smalley Sculpture Trail Introduction - Lyman Allyn Art Museum</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "03"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3734110000,-72.1038390000),label:label2,
+					title:"03.  Underseascape, 1981; Portal (Gate), 2004-2005"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n181\">03.  Underseascape, 1981; Portal (Gate), 2004-2005</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "04"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3735550000,-72.1037960000),label:label2,
+					title:"04. Five Rings Up, 2003"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n182\">04. Five Rings Up, 2003</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "05"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3739250000,-72.1036320000),label:label2,
+					title:"05.  Fandango Grande, 2010"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n183\">05.  Fandango Grande, 2010</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "06"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3734980000,-72.1053180000),label:label2,
+					title:"06. Warlock III, 1979"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n184\">06. Warlock III, 1979</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "07"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3739730000,-72.1032580000),label:label2,
+					title:"07.	Cloud 9, 1980; Beacon, 1999-2000"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n185\">07.	Cloud 9, 1980; Beacon, 1999-2000</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "08"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3744240000,-72.1037810000),label:label2,
+					title:"08.	 Warlock II, 1974"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n186\">08.	 Warlock II, 1974</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "09"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3747170000,-72.1028470000),label:label2,
+					title:"09. Circle Dance, 2003-2004"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n187\">09. Circle Dance, 2003-2004</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "10"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3748190000,-72.1044110000),label:label2,
+					title:"10.	 Disc Rising Series, 1974-75"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n188\">10.	 Disc Rising Series, 1974-75</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "11"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3764080000,-72.1050460000),label:label2,
+					title:"11. Sundance II, 1968 and Wave Form, 1976"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n189\">11. Sundance II, 1968 and Wave Form, 1976</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "12"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3769050000,-72.1077520000),label:label2,
+					title:"12.  Cloud/Temple, 1993"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n190\">12.  Cloud/Temple, 1993</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "13"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3797370000,-72.1071310000),label:label2,
+					title:"13.  Dybbuk II, 1975-77"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n191\">13.  Dybbuk II, 1975-77</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "14"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3825650000,-72.1080430000),label:label2,
+					title:"14.  Circle of Days, 1996"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n192\">14.  Circle of Days, 1996</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "15"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3817020000,-72.1034160000),label:label2,
+					title:"15.  Ad Astra, 1984"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n193\">15.  Ad Astra, 1984</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "16"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3788160000,-72.1067610000),label:label2,
+					title:"16.  Ad Astra Garden, 1997"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u20/t41/n194\">16.  Ad Astra Garden, 1997</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZRfXTzzroSaw75H3RmUSAuO14haEZtHQ&callback=myMap"></script>
+          <div class="node-list">
+            <br><h4>Stops on this tour:</h4>
+            <ul>
+              <li><a href="http://cameltours.org/ct/u20/t41/n180/">01. David Smalley Sculpture Trail Introduction - Lyman Allyn Art Museum</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n179/">02. Double Yellow, 1967; Sundance I, 1967; Viva I, 1968</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n181/">03.  Underseascape, 1981; Portal (Gate), 2004-2005</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n182/">04. Five Rings Up, 2003</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n183/">05.  Fandango Grande, 2010</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n184/">06. Warlock III, 1979</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n185/">07.	Cloud 9, 1980; Beacon, 1999-2000</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n186/">08.	 Warlock II, 1974</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n187/">09. Circle Dance, 2003-2004</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n188/">10.	 Disc Rising Series, 1974-75</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n189/">11. Sundance II, 1968 and Wave Form, 1976</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n190/">12.  Cloud/Temple, 1993</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n191/">13.  Dybbuk II, 1975-77</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n192/">14.  Circle of Days, 1996</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n193/">15.  Ad Astra, 1984</a></li>
+              <li><a href="http://cameltours.org/ct/u20/t41/n194/">16.  Ad Astra Garden, 1997</a></li>
+            </ul>
+          </div>
+          <br><br><h2><a href="http://cameltours.org/catalog">Click for Catalog</a></h2>
+          <br><br><h2><a href="http://cameltours.org/ct/u20/t41/dl/">Download Tour for Offline Use</a></h2>
+        </div>
+      </div>
+    </div>
+    <script src="http://cameltours.org/media/js/vendor/jquery.js"></script>
+    <script src="http://cameltours.org/media/js/swiper.min.js"></script>
+    <script src="http://cameltours.org/media/js/app.js"></script>
+  </body>
+</html>

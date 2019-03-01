@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CamelTours</title>
+    <link rel="shortcut icon" href="http://cameltours.org/media/img/CamelToursIcon.ico"/>
+    <link rel="stylesheet" href="http://cameltours.org/media/css/swiper.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/normalize.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/app.css">
+  </head>
+  <body>
+    <div class="outer-centerer">
+      <div class="middle-centerer">
+        <div class="inner-centerer text-center">
+          <h2>Welcome to Downtown New London Mural Walk!</h2>
+<div id="mapHolder"><img src="http://cameltours.org/ct/u16/t10/map/map.PNG" alt="Static Map"></div>
+		<script>
+		    function myMap() {
+		    		var i = 1
+				var mapHolder = document.getElementById("mapHolder");
+				mapHolder.removeChild(mapHolder.childNodes[0]);
+				mapHolder.style.width ="100%"
+				mapHolder.style.height ="400px"
+				var mapDiv = document.createElement("div");
+				mapDiv.setAttribute("id","map");
+				mapDiv.style.width ="100%"
+				mapDiv.style.height ="400px"
+				mapHolder.appendChild(mapDiv);
+				var mapOptions = {
+		                	center: new google.maps.LatLng(41.3529690000,-72.0948200000),
+			        	zoom: 17
+	             		};
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				var label1 = "08"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3534690000,-72.0952000000),label:label2,
+					title:"08. Faire Harbour Days - Lynda McLaughlin (2010)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n102\">08. Faire Harbour Days - Lynda McLaughlin (2010)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "09"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3531730000,-72.0953470000),label:label2,
+					title:"09. One Place Many Cultures - Russ Kramer, Project Manager Katie Fogg (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n103\">09. One Place Many Cultures - Russ Kramer, Project Manager Katie Fogg (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "10"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3535760000,-72.0952610000),label:label2,
+					title:"10. The Hard Hat Painters - Michael McNabney & Troy Zaushny (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n104\">10. The Hard Hat Painters - Michael McNabney & Troy Zaushny (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "11"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3541320000,-72.0952450000),label:label2,
+					title:"11. Songs of Our City - Qimin Liu, Mark McKee, & student interns (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n105\">11. Songs of Our City - Qimin Liu, Mark McKee, & student interns (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "13"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3539020000,-72.0955110000),label:label2,
+					title:"13. Racing Seahorses - Carolyn McNeil (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n114\">13. Racing Seahorses - Carolyn McNeil (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "07"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3531650000,-72.0946530000),label:label2,
+					title:"07. Goddess of Art - Jennifer Wolcin (2003)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n115\">07. Goddess of Art - Jennifer Wolcin (2003)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "16"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3531590000,-72.0962330000),label:label2,
+					title:"16. The Hawaiian Chieftain - Greg Bowerman, Kat Murphy & students (2003)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n116\">16. The Hawaiian Chieftain - Greg Bowerman, Kat Murphy & students (2003)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "12"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3541650000,-72.0953720000),label:label2,
+					title:"12. The Great Sperm Whales - Wyland, Whaling City Restoration Committee, & Jamie XV (1993)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n117\">12. The Great Sperm Whales - Wyland, Whaling City Restoration Committee, & Jamie XV (1993)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "17"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3537600000,-72.0961920000),label:label2,
+					title:"17. Girl with a Pearl Earring - Greg Bowerman (2001)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n118\">17. Girl with a Pearl Earring - Greg Bowerman (2001)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "18"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3538080000,-72.0961490000),label:label2,
+					title:"18. Vermeer's New London - Greg Bowerman (2001)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n119\">18. Vermeer's New London - Greg Bowerman (2001)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "20"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3543960000,-72.0959550000),label:label2,
+					title:"20. Veronica - Denny Rivera & Jonas Sanchez (2010)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n120\">20. Veronica - Denny Rivera & Jonas Sanchez (2010)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "21"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3545920000,-72.0964800000),label:label2,
+					title:"21. Wall Drawing #1102: Bars of Color - Sol LeWitt, Audio by Jesse Good (2003)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n121\">21. Wall Drawing #1102: Bars of Color - Sol LeWitt, Audio by Jesse Good (2003)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "22"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3552470000,-72.0963140000),label:label2,
+					title:"22. Early Morning Watch, Cutting-In, & Aloft - Thomas Sergeant LaFarge audio by Barbra Zabel (1938)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n122\">22. Early Morning Watch, Cutting-In, & Aloft - Thomas Sergeant LaFarge audio by Barbra Zabel (1938)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "23"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3542220000,-72.0940370000),label:label2,
+					title:"23. Along the Shores of New London - Gwendolyn Basilica (2010)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n123\">23. Along the Shores of New London - Gwendolyn Basilica (2010)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "24"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3549630000,-72.0935100000),label:label2,
+					title:"24. Cabinet of Shells - Peter Good and Jan Cummings (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n124\">24. Cabinet of Shells - Peter Good and Jan Cummings (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "03"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3526950000,-72.0948040000),label:label2,
+					title:"03. One Love - Jonas Sanchez & Denny Rivera (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n125\">03. One Love - Jonas Sanchez & Denny Rivera (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "01"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3530560000,-72.0947600000),label:label2,
+					title:"01. The Hygienic Ladies - Terry “Davo” Davis updated by Michael McNabney & Troy Zauchney (1999)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n126\">01. The Hygienic Ladies - Terry “Davo” Davis updated by Michael McNabney & Troy Zauchney (1999)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "06"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3527740000,-72.0943880000),label:label2,
+					title:"06. Jazz - Jonas Sanchez (2012)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n128\">06. Jazz - Jonas Sanchez (2012)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "19"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3538960000,-72.0961710000),label:label2,
+					title:"19. Chris Nelson Memorial Mural - Denny Rivera (2010)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n159\">19. Chris Nelson Memorial Mural - Denny Rivera (2010)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "02"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3527280000,-72.0948140000),label:label2,
+					title:"02. Prince - Jamie XV (2016)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n160\">02. Prince - Jamie XV (2016)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "05"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3527100000,-72.0948140000),label:label2,
+					title:"05. Guitar - Jamie XV (2016)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n168\">05. Guitar - Jamie XV (2016)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "15"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.2889000000,-72.0948140000),label:label2,
+					title:"15. Prehistoric New London - bigfootone, Jamie XV, & Krista Stanowicz (2014)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n169\">15. Prehistoric New London - bigfootone, Jamie XV, & Krista Stanowicz (2014)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "14"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3537300000,-72.0957180000),label:label2,
+					title:"14. Willie Nelson - Jamie XV, Autumn Wilson, & Krista Stanowicz (2014)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n170\">14. Willie Nelson - Jamie XV, Autumn Wilson, & Krista Stanowicz (2014)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+				var label1 = "04"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3526410000,-72.0947470000),label:label2,
+					title:"04. Jimi Hendrix - Jamie XV (2014)"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://cameltours.org/ct/u16/t10/n178\">04. Jimi Hendrix - Jamie XV (2014)</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZRfXTzzroSaw75H3RmUSAuO14haEZtHQ&callback=myMap"></script>
+          <div class="node-list">
+            <br><h4>Stops on this tour:</h4>
+            <ul>
+              <li><a href="http://cameltours.org/ct/u16/t10/n126/">01. The Hygienic Ladies - Terry “Davo” Davis updated by Michael McNabney & Troy Zauchney (1999)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n160/">02. Prince - Jamie XV (2016)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n125/">03. One Love - Jonas Sanchez & Denny Rivera (2012)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n178/">04. Jimi Hendrix - Jamie XV (2014)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n168/">05. Guitar - Jamie XV (2016)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n128/">06. Jazz - Jonas Sanchez (2012)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n115/">07. Goddess of Art - Jennifer Wolcin (2003)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n102/">08. Faire Harbour Days - Lynda McLaughlin (2010)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n103/">09. One Place Many Cultures - Russ Kramer, Project Manager Katie Fogg (2012)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n104/">10. The Hard Hat Painters - Michael McNabney & Troy Zaushny (2012)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n105/">11. Songs of Our City - Qimin Liu, Mark McKee, & student interns (2012)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n117/">12. The Great Sperm Whales - Wyland, Whaling City Restoration Committee, & Jamie XV (1993)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n114/">13. Racing Seahorses - Carolyn McNeil (2012)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n170/">14. Willie Nelson - Jamie XV, Autumn Wilson, & Krista Stanowicz (2014)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n169/">15. Prehistoric New London - bigfootone, Jamie XV, & Krista Stanowicz (2014)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n116/">16. The Hawaiian Chieftain - Greg Bowerman, Kat Murphy & students (2003)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n118/">17. Girl with a Pearl Earring - Greg Bowerman (2001)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n119/">18. Vermeer's New London - Greg Bowerman (2001)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n159/">19. Chris Nelson Memorial Mural - Denny Rivera (2010)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n120/">20. Veronica - Denny Rivera & Jonas Sanchez (2010)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n121/">21. Wall Drawing #1102: Bars of Color - Sol LeWitt, Audio by Jesse Good (2003)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n122/">22. Early Morning Watch, Cutting-In, & Aloft - Thomas Sergeant LaFarge audio by Barbra Zabel (1938)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n123/">23. Along the Shores of New London - Gwendolyn Basilica (2010)</a></li>
+              <li><a href="http://cameltours.org/ct/u16/t10/n124/">24. Cabinet of Shells - Peter Good and Jan Cummings (2012)</a></li>
+            </ul>
+          </div>
+          <br><br><h2><a href="http://cameltours.org/catalog">Click for Catalog</a></h2>
+          <br><br><h2><a href="http://cameltours.org/ct/u16/t10/dl/">Download Tour for Offline Use</a></h2>
+        </div>
+      </div>
+    </div>
+    <script src="http://cameltours.org/media/js/vendor/jquery.js"></script>
+    <script src="http://cameltours.org/media/js/swiper.min.js"></script>
+    <script src="http://cameltours.org/media/js/app.js"></script>
+  </body>
+</html>

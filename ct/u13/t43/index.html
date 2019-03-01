@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CamelTours</title>
+    <link rel="shortcut icon" href="http://cameltours.org/media/img/CamelToursIcon.ico"/>
+    <link rel="stylesheet" href="http://cameltours.org/media/css/swiper.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/normalize.css">
+    <link rel="stylesheet" href="http://cameltours.org/media/css/app.css">
+  </head>
+  <body>
+    <div class="outer-centerer">
+      <div class="middle-centerer">
+        <div class="inner-centerer text-center">
+          <h2>Welcome to Summer Sweet!</h2>
+          <div id="mapHolder"></div>
+		<script>
+		    function myMap() {
+				var mapHolder = document.getElementById("mapHolder");
+				mapHolder.style.width ="100%"
+				mapHolder.style.height ="400px"
+				var mapDiv = document.createElement("div");
+				mapDiv.setAttribute("id","map");
+				mapDiv.style.width ="100%"
+				mapDiv.style.height ="400px"
+				mapHolder.appendChild(mapDiv);
+				var mapOptions = {
+		                	center: new google.maps.LatLng(0.0000000000,0.0000000000),
+			        	zoom: 15
+	             		};
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZRfXTzzroSaw75H3RmUSAuO14haEZtHQ&callback=myMap"></script>
+          <br><p>No nodes found for this tour.</p>
+          <br><br><h2><a href="http://cameltours.org/ct/u13/t43/dl/">Download Tour for Offline Use</a></h2>
+        </div>
+      </div>
+    </div>
+    <script src="http://cameltours.org/media/js/vendor/jquery.js"></script>
+    <script src="http://cameltours.org/media/js/swiper.min.js"></script>
+    <script src="http://cameltours.org/media/js/app.js"></script>
+  </body>
+</html>
