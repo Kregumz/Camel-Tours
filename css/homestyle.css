@@ -1,0 +1,174 @@
+@import "ember-cli-bootstrap-4/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+
+html{
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+ }
+
+/*Title page start*/
+#homepage-main{
+    text-align: center;
+    font-size: 62.5%; //1 rem = 10 px
+    margin: 0;
+    padding: 0;
+    color: #054D66;
+    
+    
+}
+
+#homepage-submain{
+    height: 70vh;
+    font-size: 1.6rem;
+    background-color: rgba(235,243,255,.9);
+    padding: 2rem 0;
+    margin-top: 15vh;   
+
+}
+
+#qr-big{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8rem;
+}
+#welcome{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+
+#explore{
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#our-mission{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+#mission-text{
+    font-size: 1.8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-weight: 100;
+    margin-bottom: 4rem;
+    
+}
+
+
+#home-img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    
+}
+.home-button {
+    display: block;
+    width: 18rem;
+    margin: 2rem auto;
+    font-size: 2rem;
+    color: white;
+    background-color: Transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 1rem 2rem;
+   
+}
+
+#explore-tours{
+    
+    background-color: rgb(0,140,186);
+}
+
+#create-a-tour{
+    background-color:  rgb(0,47,95);
+    
+}
+
+#homepage-submain2{
+    font-size: 1.6rem;
+    color: var(--color-bluetext);
+    margin-top: 15vh;
+    background-color: rgb(235,243,255);
+   
+    
+}
+#homepage-submain3{
+    background-color: rgb(235,243,255);
+}
+
+
+.how-it-works{
+    margin-bottom: 2vh;
+    font-size: 1.8rem;
+    text-align: left;
+    padding-left: 1.2rem;
+    
+
+}
+
+#how-title{
+    padding-top: 5vh;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#homepage-submain2 .glyphicon{
+    margin: 0 .5rem;
+}
+
+#want-to-learn{
+    font-weight: 700;
+    margin-top: 4vh;
+    font-size: 2.2rem;
+}
+
+#learn-more{
+    background-color: rgb(0,140,186);
+    margin-top: .2rem;
+    
+}
+/*
+#background-trail{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image: url("https://cameltours.org/ct/u10/t1/n1/media/54cb60d56014f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(200%);
+    
+   
+}
+*/
+
+#camel-img{
+    width: 40%;
+}
+
+@media only screen and (min-width: 768px){ //768px is width of ipads
+    #mission-text{
+        margin-left: 50rem;
+        margin-right: 50rem;
+    }
+
+ 
+
+}
