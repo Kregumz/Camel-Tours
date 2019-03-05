@@ -106,18 +106,57 @@
     <script src="http://localhost:8080/public_html/media/js/app.js"></script>
     <script>
     
-      /*var mySwiper = new Swiper('swiper-container',{
-        slidesPerView: 'auto',
-        centeredSlides :true,
-        watchActiveIndex :true,
-        pagination: '.swiper-pagination',
-      })*/
 
       window.onload = function(){
         nodeSwiper = document.querySelector('.swiper-container').swiper;
         document.getElementById("next-btn").addEventListener("click", function(){nodeSwiper.slideNext()})
       }
+
+      var i = 0;
+      var times =[2,5,10,104];
+      var audio = document.getElementById("node-audio");
+
+
+    window.setInterval(function(){
+      var breakSet= false;
+      
+      if (nodeSwiper.activeIndex!=0){
+        for (i=0; i<times.length; i++){
+
+          if (audio.currentTime<times[i]){
+            nodeSwiper.slideTo(i+1); //slide to that exact point in the slide (i+1 because the beginning slide counts as one)
+            breakSet=true;
+          }
+          if (breakSet){
+            break;
+          }
+        }
+
+      }
+
+ 
+
+    },1)
+
+
+
+      window.setInterval(function(){
+
+        if(!audio.paused){ //so that slide does not switch while paused on an element in times
+             for (i=0;i<times.length;i++){
+              if (Math.round(audio.currentTime*10)/10==times[i]){ //rounds audio current time to one decimal place
+                  console.log(audio.currentTime);
+                  nodeSwiper.slideTo(i+2);
+               
+              }
+            }
+        
+
+        }
+     
+      },100)
      
     </script>
   </body>
 </html>
+      
