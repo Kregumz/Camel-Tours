@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
 
 html{
-    font-size: 100%;
+    font-size: 70%;
 }
 
 body {
@@ -12,30 +12,43 @@ body {
     font-weight: lighter;
  }
 
+ 
+.top-bar-section ul{
+    font-size: 30px;
+}
+
 /*Title page start*/
 #homepage-main{
     text-align: center;
-    font-size: 62.5%; //1 rem = 10 px
+    font-size: 62.5%; 
     margin: 0;
     padding: 0;
     color: #054D66;
+
     
     
 }
 
-#homepage-submain{
-    height: 70vh;
-    font-size: 1.6rem;
-    background-color: rgba(235,243,255,.9);
-    padding: 2rem 0;
-    margin-top: 15vh;   
+#outer-div{
+    height: 100vh;
+}
 
+#homepage-submain{
+    position: absolute;
+    top:12.5vh;
+    height: 80vh;
+    font-size: 1.6rem;
+    background-color: rgba(235,243,255,.85);
+    padding: 2rem 0;  
+    width: 100%;
+    z-index: -1;
+   
 }
 
 #qr-big{
     margin: 0;
     padding: 0;
-    font-size: 2.8rem;
+    font-size: 3rem;
 }
 #welcome{
     margin-bottom: 0;
@@ -58,11 +71,11 @@ body {
 }
 #mission-text{
     font-size: 1.8rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    font-weight: 100;
-    margin-bottom: 4rem;
-    
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 300;
+    margin-bottom: 2rem;
+
 }
 
 
@@ -102,7 +115,7 @@ body {
 #homepage-submain2{
     font-size: 1.6rem;
     color: var(--color-bluetext);
-    margin-top: 15vh;
+   
     background-color: rgb(235,243,255);
    
     
@@ -117,12 +130,13 @@ body {
     font-size: 1.8rem;
     text-align: left;
     padding-left: 1.2rem;
+    font-weight: 300;
     
 
 }
 
 #how-title{
-    padding-top: 5vh;
+   
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
@@ -163,12 +177,54 @@ body {
     width: 40%;
 }
 
-@media only screen and (min-width: 768px){ //768px is width of ipads
+
+
+
+
+/* naviagation bar end*/
+@media only screen and (min-width: 768px){ /*768px is width of ipads*/
+    html{
+        font-size: 75%;
+    }
+
     #mission-text{
         margin-left: 50rem;
         margin-right: 50rem;
     }
 
+    .how-it-works{
+        text-align: center;
+    }
  
+    #homepage-submain{
+        font-size: 50%;
+    }
 
+    #qr-big{
+        font-size: 4rem;
+    }
+    #welcome{
+        font-size: 5.33rem;
+        
+    }
+
+    #explore{
+        font-size: 3.33rem;
+    }
+
+    #our-mission{
+        font-size: 3.33rem;
+
+    }
+    #mission-text{
+        font-size: 2.3rem;
+        margin-left: 30vw;
+        margin-right: 30vw;
+       
+
+    }
+
+    #how-title{
+        font-size: 3.3rem;
+    }
 }
