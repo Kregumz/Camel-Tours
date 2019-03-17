@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>CamelTours</title>
+    <link rel="shortcut icon" href="http://localhost:8080/public_html/media/img/CamelToursIcon.ico"/>
+    <link rel="stylesheet" href="http://localhost:8080/public_html/media/css/swiper.css">
+    <link rel="stylesheet" href="http://localhost:8080/public_html/media/css/normalize.css">
+    <link rel="stylesheet" href="http://localhost:8080/public_html/media/css/app.css">
+<script>
+      	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      	  ga('create', 'UA-101867950-1', 'auto');
+      	  ga('send', 'pageview');
+          </script>
+  </head>
+  <body>
+    <div class="outer-centerer">
+      <div class="middle-centerer">
+        <div class="inner-centerer text-center">
+          <h2>Welcome to Slideshow Tour test!</h2>
+          <div id="mapHolder"></div>
+		<script>
+		    function myMap() {
+		    		var i = 1
+				var mapHolder = document.getElementById("mapHolder");
+				mapHolder.style.width ="100%"
+				mapHolder.style.height ="400px"
+				var mapDiv = document.createElement("div");
+				mapDiv.setAttribute("id","map");
+				mapDiv.style.width ="100%"
+				mapDiv.style.height ="400px"
+				mapHolder.appendChild(mapDiv);
+				var mapOptions = {
+		                	center: new google.maps.LatLng(41.3788,72.1040),
+			        	zoom: 17
+	             		};
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				var label1 = "No"
+				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
+				var marker = new google.maps.Marker({
+          			position: new google.maps.LatLng(41.3788000000,72.1040000000),label:label2,
+					title:"Node 1"
+				});
+				marker.info = new google.maps.InfoWindow({
+ 				content: "<a href=\"http://localhost:8080/public_html/ct/u26/t47/n217\">Node 1</a>"
+  			});
+				marker.addListener("click", function() {
+    			this.info.open(map, this);
+  			});
+          		marker.setMap(map);
+          		i++
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZRfXTzzroSaw75H3RmUSAuO14haEZtHQ&callback=myMap"></script>
+          <div class="node-list">
+            <br><h4>Stops on this tour:</h4>
+            <ul>
+              <li><a href="http://localhost:8080/public_html/ct/u26/t47/n217/">Node 1</a></li>
+            </ul>
+          </div>
+          <br><br><h2><a href="http://cameltours.org/catalog">Click for Catalog</a></h2>
+          <br><br><h2><a href="http://localhost:8080/public_html/ct/u26/t47/dl/">Download Tour for Offline Use</a></h2>
+        </div>
+      </div>
+    </div>
+    <script src="http://localhost:8080/public_html/media/js/vendor/jquery.js"></script>
+    <script src="http://localhost:8080/public_html/media/js/swiper.min.js"></script>
+    <script src="http://localhost:8080/public_html/media/js/app.js"></script>
+  </body>
+</html>
