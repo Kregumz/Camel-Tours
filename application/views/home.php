@@ -5,22 +5,30 @@
 
 <div id="homepage-main">
     <img id="home-img" src="https://www.conncoll.edu/media/new-media/campus-life/Aerial.jpg" alt="Connecticut College Trees" class="image">
-    <div id="homepage-submain">
-        <p id="welcome"><span id="qr-big" class="glyphicon glyphicon-qrcode"></span>CamelTours</p>
-        <div id="explore">Ready to Explore?</div>
-        
-        <p id="our-mission">Our Mission:</p>
-        <p id="mission-text">to help communities create on-site, self-guided tours for sharing nautral and cultural heritage via smarphone devices</p>
-        <button id="explore-tours" class="home-button">Explore Tours</button>
-        <button id="create-a-tour" class="home-button">Create a Tour</button>
+    <div id="outer-div">
+      <div id="homepage-submain">
+          <p id="welcome"><span id="qr-big" class="glyphicon glyphicon-qrcode"></span>CamelTours</p>
+          <div id="explore">Ready to Explore?</div>
+          
+          <p id="our-mission">Our Mission:</p>
+          <p id="mission-text">to help communities create on-site, self-guided tours for sharing nautral and cultural heritage via smarphone devices</p>
+         <a href="<?php echo base_url();?>catalog" target="_parent"><button id="explore-tours" class="home-button">Explore Tours</button></a>
+          <button id="create-a-tour" class="home-button">Create a Tour</button>
+
+      </div>
+
     </div>
+  
     <div id="homepage-submain2">
         <div id="background-trail"></div>
         <div id="submain2-container">
             <p class="how-it-works" id="how-title">How it Works:</p>
-            <p class="how-it-works"><span class="glyphicon glyphicon-upload"></span>Create a tour by uploading image and audio files</p>
-            <p class="how-it-works"><span class="glyphicon glyphicon-qrcode"></span>Print out and post your tour QR code(s)</p>
-            <p class="how-it-works"><span class="glyphicon glyphicon-phone"></span>View your tour on a mobile device</p>
+            <div id="how-it-works-div">
+              <p class="how-it-works"><span class="glyphicon glyphicon-upload"></span>Create a tour by uploading image and audio files</p>
+              <p class="how-it-works"><span class="glyphicon glyphicon-qrcode"></span>Print out and post your tour QR code(s)</p>
+              <p class="how-it-works"><span class="glyphicon glyphicon-phone"></span>View your tour on a mobile device</p>
+              
+            </div>
             <p id="want-to-learn">Want to learn more about CamelTours?</p>
             <button id="learn-more" class="home-button">Learn More</button>
             <!--<img id="camel-img" src="https://cameltours.org/media/img/CamelToursLogo.png" alt="Camel Tours Logo">-->

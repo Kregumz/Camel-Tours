@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/foundation.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/foundation.mod.css">
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/glyphicons.css">
-    <!--<link rel="stylesheet" href="<?php echo base_url();?>media/css/catalog_beta.css">-->
+    <link rel="stylesheet" href="<?php echo base_url();?>media/css/catalog_beta.css">
     <?php if ($title="catalog") echo '<link rel="stylesheet" href="'.base_url().'media/css/catalog_beta.css>'."\n    "; ?>
     <?php if ($title == 'Node') echo '<link rel="stylesheet" href="'.base_url().'media/css/dropzone.css">'."\n    "; ?><!-- End CSS links -->
     

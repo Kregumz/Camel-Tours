@@ -43,7 +43,7 @@
     </div>
     <div class="row">
       <div class="small-12 medium-12 large-12 columns small-centered medium-centered large-centered">
-        <p><b>Note:</b> You cannot upload more than twelve files or files larger than 2 MB each due to the limits of offline storage. If your files are too big, you can shrink them using a free image editor (like GIMP) or a free audio editor (like Audacity) and then upload them to your node. <b>Accepted file types:</b> .jpg, .jpeg, .gif, .png, and .bmp for images; .mp3 for audio files. Please see the FAQ if you have any additional questions.</p>
+        <p><b>Note:</b> You cannot upload more than twelve files or files larger than 6 MB each due to the limits of offline storage. If your files are too big, you can shrink them using a free image editor (like GIMP) or a free audio editor (like Audacity) and then upload them to your node. You also can only upload one audio file per node. <b>Accepted file types:</b> .jpg, .jpeg, .gif, .png, and .bmp for images; .mp3 for audio files. Please see the FAQ if you have any additional questions.</p>
       </div>
     </div>
     <div class="row text-center">
@@ -60,7 +60,7 @@
       var updir = "<?php echo '/ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/media/';?>";
       Dropzone.options.nodezone = {
         dictDefaultMessage: '',
-        maxFilesize: 2,
+        maxFilesize: 6,
         maxFiles: 12,
         dictMaxFilesExceeded: "You can only upload twelve files per node.",
         acceptedFiles: '.jpg,.jpeg,.gif,.png,.bmp,.mp3',
@@ -84,7 +84,8 @@
             }
           });
           this.on('addedfile', function(file) {
-            if (isImage(file) && file.size<2097152)
+
+            if (isImage(file))    /* 6291456 is 6 MB in binray */
               img_order.push(file)
             else if (isMP3(file))
               thisDropzone.options.thumbnail.call(thisDropzone, file, '/media/img/mp3thumb.png');

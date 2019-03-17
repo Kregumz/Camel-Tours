@@ -10,7 +10,7 @@
       if (!file_exists(APPPATH.'/views/'.$page.'.php'))
         show_404();
       // Load our templates and the view for this page.
-      $this->load->view('templates/header', $data); //header
+      $this->load->view('templates/home_header', $data); //header
       $this->load->view('templates/navigation', $data);  //navbar
       $this->load->view($page, $data); //body
       $this->load->view('templates/footer', $data); //footer
