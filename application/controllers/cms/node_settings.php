@@ -25,6 +25,7 @@
       //add node lat/long parameters here
       $data['node_lat'] = '';
       $data['node_long'] = '';
+      $data['auto_slide_status']=false; //added this
       
       $this->db->where('node_id', $node_id);
       $query = $this->db->get('nodes');
@@ -35,6 +36,7 @@
         //add node lat/long parameters here
         $data['node_lat'] = $row->node_lat;
         $data['node_long'] = $row->node_long;
+        //$data['auto_slide_status'] = $row->auto_slide_status; //added this
       }
       // Set additional data parameters.
       $data['form_data'] = $form_data;
@@ -124,6 +126,19 @@
               $this->build_model->build_tour($user_id, $tour_id);
             }
           }
+          /*
+          if ($this_row->auto_slide_status !== $form_data['auto_slide_status']) {
+            $this->db->where('auto_slide_status', $this_row->auto_slide_status);
+            $count_check = $this->db->count_all_results('nodes');
+            if ($count_check == 1) {
+              $this->db->where('node_id', $this_row->node_id);
+              $this->db->update('nodes', array('auto_slide_status' => $form_data['auto_slide_status']));
+              $this->build_model->build_node($this_row->node_id, $tour_uri);
+              $this->build_model->build_tour($user_id, $tour_id);
+            }
+          }
+          */
+
           $this->index($tour_id, $node_id, $form_data, 'Changes saved successfully!');
         }
       }

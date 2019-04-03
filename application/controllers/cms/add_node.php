@@ -43,7 +43,8 @@
           'node_name' => $form_data['node_name'],
           'node_location' => $form_data['node_location'],
           'node_lat' => $form_data['node_lat'],
-          'node_long' => $form_data['node_long']
+          'node_long' => $form_data['node_long'],
+          //'auto_slide_status' => $form_data['auto_slide_status'] //added this
         );
         // Insert the entry into the nodes table.
         $this->db->insert('nodes', $data);
