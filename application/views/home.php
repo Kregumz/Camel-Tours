@@ -2,7 +2,6 @@
 
 
 
-
 <div id="homepage-main">
     <img id="home-img" src="https://www.conncoll.edu/media/new-media/campus-life/Aerial.jpg" alt="Connecticut College Trees" class="image">
     <div id="outer-div">
