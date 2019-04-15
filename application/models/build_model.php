@@ -140,7 +140,7 @@
       //$t_long = array();
       
       $this->db->where('tour_id', $tour_id); //go to the location of the database with the tour id matching our tour id
-      $query = $this->db->get('tours'); //get the tour infor
+      $query = $this->db->get('tours'); //get the tour info
       if ($query->num_rows() == 1) {
         $title = $query->row()->tour_name;
 	$t_lat = $query->row()->tour_lat;
@@ -216,7 +216,7 @@
 	if ($t_lat != null and $t_long != null) {
       
       //$h[] = '          <div id="map" style="width:100%; height:400px"></div>';
-      
+
       
       //if the tour is Virginia's mural walk, include a static map		
       		if($tour_id == 10 && $user_id == 16){
@@ -340,6 +340,7 @@
       $title = '';
       $this->db->where('node_id', $node_id);
       $query = $this->db->get('nodes');
+
       if ($query->num_rows() == 1)
         $title = $query->row()->node_name;
       // Get the slides and the media.
@@ -379,6 +380,12 @@
       	  ga('create', 'UA-101867950-1', 'auto');
       	  ga('send', 'pageview');
           </script>";
+
+        $this->db->where('node_id', $node_id);
+        $query = $this->db->get('nodes');
+        if ($query->row()->auto_slide_status){ //added this
+            $h[] = '<script src="'.base_url().'media/js/Slideshow2.js"></script>' ;
+        }
           
       $h[] = '  </head>';
       $h[] = '  <body>';

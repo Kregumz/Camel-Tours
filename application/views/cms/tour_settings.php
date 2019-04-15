@@ -26,13 +26,13 @@
             </div>
             <!-- TOUR LAT AND TOUR LONG -->
             <div class="row">
-              <label>Tour Latitude</label>
-              <input type="text" name="tour_lat" value="<?php echo $tour_lat;?>" required>
+              <label>Tour Latitude (optional)</label>
+              <input type="text" name="tour_lat" value="<?php if ($tour_lat!=0) echo $tour_lat;?>">
               <small class="error">A tour latitude is required.</small>
             </div>
             <div class="row">
-              <label>Tour Longitude</label>
-              <input type="text" name="tour_long" value="<?php echo $tour_long;?>" required>
+              <label>Tour Longitude (optional)</label>
+              <input type="text" name="tour_long" value="<?php if ($tour_long!= 0) echo $tour_long;?>">
               <small class="error">A tour longitude is required.</small>
             </div>
             <div class="row"><br>

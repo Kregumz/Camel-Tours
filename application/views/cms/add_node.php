@@ -29,19 +29,24 @@
             <!--add node lat field-->
             <div class="row">
               <label>Node Latitude</label>
-              <input type="text" name="node_lat" value="<?php echo isset($form_data['node_lat']) ? $form_data['node_lat'] : ''; ?>" required>
+              <input type="text" name="node_lat" value="<?php echo isset($form_data['node_lat']) ? $form_data['node_lat'] : ''; ?>">
               <small class="error">A node latitude is required.</small>
             </div>
             <!--add node long field-->
             <div class="row">
               <label>Node Longitude</label>
-              <input type="text" name="node_long" value="<?php echo isset($form_data['node_long']) ? $form_data['node_long'] : ''; ?>" required>
+              <input type="text" name="node_long" value="<?php echo isset($form_data['node_long']) ? $form_data['node_long'] : ''; ?>">
               <small class="error">A node longitude is required.</small>
             </div>
+              <div class="row"><br> <!--Added this div-->
+                  <input type="checkbox" name="auto_slide_status" value="<?php echo isset($form_data['auto_slide_status']) ? $form_data['auto_slide_status'] : '';?>">
+                  <label>Enable Automatic Slide Show Mode</label>
+              </div>
             <div class="row text-center">
               <input type="hidden" name="tour_id" value="<?php echo $tour_id;?>">
               <br><input type="submit" value="Create Node" class="expand button">
             </div>
+
           </fieldset>
         </form>
         <br><p class="text-center"><a href="<?php echo base_url();?>faq">Questions? See the FAQ.</a></p>

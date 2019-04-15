@@ -39,14 +39,14 @@
 			        	zoom: 17
 	             		};
 				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-				var label1 = "No"
+				var label1 = "Th"
 				var label2 = (isNaN(parseInt(label1))) ? "" : label1;
 				var marker = new google.maps.Marker({
-          			position: new google.maps.LatLng(41.3788000000,72.1040000000),label:label2,
-					title:"Node 1"
+          			position: new google.maps.LatLng(41.3638190000,72.1040000000),label:label2,
+					title:"The Outback"
 				});
 				marker.info = new google.maps.InfoWindow({
- 				content: "<a href=\"http://localhost:8080/public_html/ct/u26/t47/n217\">Node 1</a>"
+ 				content: "<a href=\"http://localhost:8080/public_html/ct/u26/t47/n218\">The Outback</a>"
   			});
 				marker.addListener("click", function() {
     			this.info.open(map, this);
@@ -59,7 +59,7 @@
           <div class="node-list">
             <br><h4>Stops on this tour:</h4>
             <ul>
-              <li><a href="http://localhost:8080/public_html/ct/u26/t47/n217/">Node 1</a></li>
+              <li><a href="http://localhost:8080/public_html/ct/u26/t47/n218/">The Outback</a></li>
             </ul>
           </div>
           <br><br><h2><a href="http://cameltours.org/catalog">Click for Catalog</a></h2>

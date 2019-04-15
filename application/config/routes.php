@@ -73,6 +73,10 @@ $route['cms/node/(:num)/(:num)/send-form'] = 'cms/node/send_form/$1/$2';
 // Slide Details Page
 $route['cms/slide/(:num)/(:num)/(:num)'] = 'cms/slide/index/$1/$2/$3';
 $route['cms/slide/(:num)/(:num)/(:num)/send-form'] = 'cms/slide/send_form/$1/$2/$3';
+//Automatic Slideshow Settings Page
+$route['cms/auto-slideshow-settings'] = 'cms/auto_slideshow_settings';
+$route['cms/auto-slideshow-settings/(:num)/(:num)'] = 'cms/auto_slideshow_settings/index/$1/$2';
+$route['cms/auto-slideshow-settings/(:num)/(:num)/send-form'] = 'cms/auto_slideshow_settings/send_form/$1/$2';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -4,10 +4,15 @@
     <meta name="viewport" content="width=device-width">
     <title>CamelTours</title>
     <link rel="shortcut icon" href="<?php echo base_url();?>media/img/CamelToursIcon.ico"/>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!-- CSS links -->
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/foundation.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/foundation.mod.css">
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/glyphicons.css">
+
     <?php if ($title == 'Node') echo '<link rel="stylesheet" href="'.base_url().'media/css/dropzone.css">'."\n    "; ?><!-- End CSS links -->
     <script src="<?php echo base_url();?>media/js/vendor/modernizr.js"></script>
     //Google Analytics Script

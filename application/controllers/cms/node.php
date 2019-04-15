@@ -2,33 +2,35 @@
  
   class Node extends CI_Controller
   {
-    public function index($tour_id=-1, $node_id=-1, $form_data=array(), $error=null) {
-      // Boot the user if they are not logged in.
-      $this->check_session();
-      // Verify that the specified tour ID is valid.
-      $this->verify_tour($tour_id);
-      // Verify that the specified node ID is valid.
-      $this->verify_node($tour_id, $node_id);
-      // Get the name of the page from the class.
-      $data['title'] = get_class($this);
-      $page = strtolower($data['title']);
-      // Make sure that the view for this page exists!
-      if (!file_exists(APPPATH.'/views/cms/'.$page.'.php'))
-        show_404();
-      // Get existing files.
-      list($result, $img_index) = $this->get_existing_files($node_id);
-      // Set additional data parameters.
-      $data['form_data'] = $form_data;
-      $data['error'] = $error;
-      $data['user_id'] = $this->session->userdata('user_id');
-      $data['tour_id'] = $tour_id;
-      $data['node_id'] = $node_id;
-      $data['existing_files'] = $result;
-      // Load our templates and the view for this page.
-      $this->load->view('templates/header', $data);
-      $this->load->view('templates/navigation', $data);
-      $this->load->view('cms/'.$page, $data);
-      $this->load->view('templates/footer', $data);
+    public function index($tour_id=-1, $node_id=-1, $form_data=array(), $error=null)
+    {
+        // Boot the user if they are not logged in.
+        $this->check_session();
+        // Verify that the specified tour ID is valid.
+        $this->verify_tour($tour_id);
+        // Verify that the specified node ID is valid.
+        $this->verify_node($tour_id, $node_id);
+        // Get the name of the page from the class.
+        $data['title'] = get_class($this);
+        $page = strtolower($data['title']);
+        // Make sure that the view for this page exists!
+        if (!file_exists(APPPATH . '/views/cms/' . $page . '.php'))
+            show_404();
+        // Get existing files.
+        list($result, $img_index) = $this->get_existing_files($node_id);
+        // Set additional data parameters.
+        $data['form_data'] = $form_data;
+        $data['error'] = $error;
+        $data['user_id'] = $this->session->userdata('user_id');
+        $data['tour_id'] = $tour_id;
+        $data['node_id'] = $node_id;
+        $data['existing_files'] = $result;
+        // Load our templates and the view for this page.
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/navigation', $data);
+        $this->load->view('cms/' . $page, $data);
+        $this->load->view('templates/footer', $data);
+
     }
     public function send_form($tour_id=-1, $node_id=-1) {
       // Boot the user if they are not logged in.

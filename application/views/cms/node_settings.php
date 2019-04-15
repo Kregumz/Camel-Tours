@@ -26,18 +26,25 @@
             </div>
             <!--add node lat and node long-->
             <div class="row">
-              <label>Node Latitude</label>
-              <input type="text" name="node_lat" value="<?php echo $node_lat;?>" required>
+              <label>Node Latitude (optional)</label>
+              <input type="text" name="node_lat" value="<?php  if ($node_lat!=0) echo $node_lat;?>">
               <small class="error">A node latitude is required.</small>
             </div>
             <div class="row">
-              <label>Node Longitude</label>
-              <input type="text" name="node_long" value="<?php echo $node_long;?>" required>
+              <label>Node Longitude (optional)</label>
+              <input type="text" name="node_long" value="<?php if ($node_long!=0) echo $node_long;?>">
               <small class="error">A node longitude is required.</small>
             </div>
             <div class="row"><br>
               <input type="checkbox" name="delete"><label>Delete Node</label>
             </div>
+             <div class="row"><br> <!--Added this div-->
+                  <input type="checkbox" name="auto_slide_status" value="true"
+                    <?php if($auto_slide_status)
+                        echo "checked"?>
+                 >
+                  <label>Enable Automatic Slide Show Mode</label>
+             </div>
             <div class="row text-center">
               <input type="hidden" name="tour_id" value="<?php echo $tour_id;?>">
               <br><input type="submit" value="Submit" class="expand button">

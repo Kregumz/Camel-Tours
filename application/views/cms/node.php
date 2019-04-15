@@ -1,4 +1,20 @@
     <!-- Page Body -->
+    <?php
+        $image_urls = [];
+        $this->db->where('node_id', $node_id);
+        $query = $this->db->get('slides');
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                if ($row->seq_num == 0)
+                    $audio_url = base_url().$row->media_uri;
+                else {
+                    array_push($image_urls,base_url().$row->media_uri);
+                }
+
+            }
+        }
+    ?>
+
     <br>
     <div class="row text-center">
       <div class="small-12 medium-6 large-6 columns small-centered medium-center large-centered">
@@ -39,11 +55,57 @@
       </div>
     </div>
     <div class="row text-center">
+        <div>
+
+            <?php
+            $this->db->where('node_id', $node_id);
+            $query = $this->db->get('nodes');
+            if ($query->row()->auto_slide_status):?>
+                <div class = 'small-12 medium-12 large-12 columns small-centered medium-centered large-centered'>
+                    <p>You have enabled the Automatic Slideshow Feature. Please enter the time that the tour narrator
+                     starts talking about the image in the audio file in the box below each image. Each time should be in seconds (no decimals).
+                    The times that you enter from left to right should increase, so make sure all of your images are in the correct
+                    order before you enter them.</p>
+                </div>
+
+                <audio controls style="max-width: 90%;">
+                    <source src="<?php echo $audio_url?>" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+                <form action = "<?php echo base_url();?>media/js/Slideshow2.js" method="POST">
+                <?php
+                    $input_num = 1;
+
+                    echo "<div style='align-items: center; display: flex; justify-content: center;'>";
+                    foreach ($image_urls as $image_url){
+                        echo "  <div style='display:inline-block; position:relative;
+                        margin: 30px 20px; width: 300px height: 300px '>";
+                        echo "    <img src='$image_url' style='height:100px; width: 100px; 
+                         vertical-align:top'>";
+                        echo "    <input type='text' name='timestamp$input_num' 
+                        style=' width: 50px; 
+                        position: absolute; left:25%; top:110% '>";
+                        echo "  </div>";
+                        $input_num+= 1;
+                    }
+
+                    echo "</div>";
+                ?>
+
+                
+                    
+                </form>
+
+            <?php endif; ?>
+        </div>
+    </div>
+
+    <div class="row text-center">
       <p><b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/';?>" target="_blank">View Node</a></b> &nbsp;&bull;&nbsp; <b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/qr.png';?>" target="_blank">QR Code</a></b> &nbsp;&bull;&nbsp; <b><a href="<?php echo base_url().'cms/node-settings/'.$tour_id.'/'.$node_id;?>">Node Settings</b></a></p>
     </div>
     <div class="row">
       <div class="small-12 medium-12 large-12 columns small-centered medium-centered large-centered">
-        <p><b>Note:</b> You cannot upload more than twelve files or files larger than 6 MB each due to the limits of offline storage. If your files are too big, you can shrink them using a free image editor (like GIMP) or a free audio editor (like Audacity) and then upload them to your node. You also can only upload one audio file per node. <b>Accepted file types:</b> .jpg, .jpeg, .gif, .png, and .bmp for images; .mp3 for audio files. Please see the FAQ if you have any additional questions.</p>
+        <p><b>Note:</b> You cannot upload more than twelve files or files larger than 2 MB each due to the limits of offline storage. If your files are too big, you can shrink them using a free image editor (like GIMP) or a free audio editor (like Audacity) and then upload them to your node. You also can only upload one audio file per node. <b>Accepted file types:</b> .jpg, .jpeg, .gif, .png, and .bmp for images; .mp3 for audio files. Please see the FAQ if you have any additional questions.</p>
       </div>
     </div>
     <div class="row text-center">
@@ -51,7 +113,7 @@
       <p><a href="<?php echo base_url().'cms/home/'.$tour_id;?>">Back to your homepage.</a></p>
        <!--<br><p class="text-center"> If you are the user who owns this tour OR the site administrator, you can access the page.</p>-->
     </div>
-
+    <b><a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">Auto Slideshow Settings</b></a></p>
     <script src="/media/js/dropzone.min.js"></script>
     <script>
       var img_index = 1;

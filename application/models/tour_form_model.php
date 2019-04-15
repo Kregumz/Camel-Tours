@@ -12,7 +12,9 @@
        );
        
        // Check whether we are missing any required parameters.
-       $form_data['complete'] = array_search('', $form_data) == false;
+
+       //$form_data['complete'] = array_search('', $form_data) == false;
+        $form_data['complete'] = $form_data['tour_name']!='' and $form_data['tour_location']!='';
        // Return the form data.
        return $form_data;
     }
