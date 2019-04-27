@@ -100,7 +100,8 @@
               'media_name' => $basename,
               'media_size' => $filesize,
               'media_uri' => $media_file_uri,
-              'thumb_uri' => $thumb_file_uri
+              'thumb_uri' => $thumb_file_uri,
+
             );
             // Insert the entry into the slides table.
             $this->db->insert('slides', $data);
@@ -112,9 +113,11 @@
           }
         }
         // If the user used the fallback form, refresh the page.
-        if ($this->input->post('unsupported')) {
+        if ($this->input->post('unsupported') or $this->input->post('Submit')) {
           $this->index($tour_id, $node_id, array(), '');
         }
+
+
       }
       // Otherwise, echo what we do have.
       else {                                                           

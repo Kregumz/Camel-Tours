@@ -28,18 +28,18 @@
             </div>
             <!--add node lat field-->
             <div class="row">
-              <label>Node Latitude</label>
+              <label>Node Latitude (optional)</label>
               <input type="text" name="node_lat" value="<?php echo isset($form_data['node_lat']) ? $form_data['node_lat'] : ''; ?>">
               <small class="error">A node latitude is required.</small>
             </div>
             <!--add node long field-->
             <div class="row">
-              <label>Node Longitude</label>
+              <label>Node Longitude (optional)</label>
               <input type="text" name="node_long" value="<?php echo isset($form_data['node_long']) ? $form_data['node_long'] : ''; ?>">
               <small class="error">A node longitude is required.</small>
             </div>
               <div class="row"><br> <!--Added this div-->
-                  <input type="checkbox" name="auto_slide_status" value="<?php echo isset($form_data['auto_slide_status']) ? $form_data['auto_slide_status'] : '';?>">
+                  <input type="checkbox" name="auto_slide_status" value="true">
                   <label>Enable Automatic Slide Show Mode</label>
               </div>
             <div class="row text-center">

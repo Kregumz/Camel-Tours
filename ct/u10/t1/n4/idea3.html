@@ -115,11 +115,13 @@
         nodeSwiper = document.querySelector('.swiper-container').swiper;
 
         nodeSwiper.on('transitionEnd', function () {
+
           if (i==0){ 
                 audio.currentTime = 0; //set the time to zero on the title slide      
               }   
           if (nodeSwiper.activeIndex!=0){
             audio.currentTime = times[nodeSwiper.activeIndex-1];
+            audio.play();
             }    
         });  
       }
@@ -130,12 +132,12 @@
              for (i=0;i<times.length;i++){
               //if the current time is equal to the next time in the array of timestamps
               if (Math.round(audio.currentTime*10)/10==times[nodeSwiper.activeIndex]){ 
+                  
                   audio.pause();
                
               }
             }
         
-
         }
      
       },100)

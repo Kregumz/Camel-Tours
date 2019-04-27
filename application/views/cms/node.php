@@ -1,19 +1,24 @@
     <!-- Page Body -->
-    <?php
-        $image_urls = [];
-        $this->db->where('node_id', $node_id);
-        $query = $this->db->get('slides');
-        if ($query->num_rows() > 0) {
-            foreach ($query->result() as $row) {
-                if ($row->seq_num == 0)
-                    $audio_url = base_url().$row->media_uri;
-                else {
-                    array_push($image_urls,base_url().$row->media_uri);
-                }
+    <style>
+       #button {
+            display: block;
+            width: 20rem;
+            margin: 1.4rem auto;
+            font-size: 1.5rem;
+            color: white;
+            background-color: rgb(0,140,186);
+            border: 1px solid white;
+            cursor: pointer;
+            padding: .8rem 1rem;
+            font-weight: 500;
 
-            }
         }
-    ?>
+    </style>
+    <?php
+    $this->db->where('node_id', $node_id);
+    $query = $this->db->get('nodes');
+    $auto_slide_status = $query->row()->auto_slide_status;?>
+
 
     <br>
     <div class="row text-center">
@@ -25,9 +30,17 @@
     </div>
     <div class="row">
       <div class="small-12 medium-12 large-12 columns small-centered medium-centered large-centered">
-        <p>Upload your images and audio by dragging-and-dropping the files into the space below or by clicking on the space. Current files are shown as small thumbnails in slideshow order, and clicking on one of the thumbnails will bring you to the edit screen of that slide.</p>
+        <p>Upload your images and audio by dragging-and-dropping the files into the space below or by clicking on the space. Current files are shown as small thumbnails in slideshow order,
+            and clicking on one of the thumbnails will bring you to the edit screen of that slide.</p>
+          <?php
+          if ($auto_slide_status):?>
+             <p> Also, you enabled the <b>Automatic Slide Show Feature</b>, so make sure to enter your timestamps when you are done by clicking
+                  <a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">here</a> or by clicking
+            "Enter Slide Timestamps" down below.</p>
+          <?php endif; ?>
       </div>
     </div>
+
     <div class="row">
       <div class="small-12 medium-10 large-10 columns small-centered medium-centered large-centered">
         <form action="<?php echo base_url().'cms/node/'.$tour_id.'/'.$node_id.'/send-form';?>" class="dropzone" id="nodezone" style="border: solid 1px #999999;" method="POST" enctype="multipart/form-data">
@@ -36,6 +49,7 @@
           </div>
           <div class="fallback">
             <?php
+              $iters = 0;
               echo '<!-- Image Thumbnails -->'."\n";
               foreach ($existing_files as $key => $value) {
                 echo '            <div class="thumb-holder">'."\n";
@@ -43,6 +57,7 @@
                 echo '                <img src="'.base_url().$value['thmb'].'" style="height: 100px; width: 100px;">'."\n";
                 echo '              </a>'."\n";
                 echo '            </div>'."\n";
+                $iters +=1;
               }
             ?>
             <br><br>
@@ -54,66 +69,64 @@
         </form>
       </div>
     </div>
+
+    <div class="row text-center">
+        <p> <?php
+            if ($auto_slide_status):?>
+                <b><a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">Enter Slide Timestamps</a></b>&nbsp;&bull;&nbsp;
+
+
+            <?php endif; ?><b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/';?>" target="_blank">View Node</a></b>
+            &nbsp;&bull;&nbsp; <b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/qr.png';?>" target="_blank">QR Code</a></b> &nbsp;&bull;&nbsp; <b><a href="<?php echo base_url().'cms/node-settings/'.$tour_id.'/'.$node_id;?>">Node Settings</b></a></p>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns small-centered medium-centered large-centered">
+            <p><b>Note:</b> You cannot upload more than twelve files or files larger than 2 MB each due to the limits of offline storage. If your files are too big, you can shrink them using a free image editor (like GIMP) or a free audio editor (like Audacity) and then upload them to your node. You also can only upload one audio file per node. <b>Accepted file types:</b> .jpg, .jpeg, .gif, .png, and .bmp for images; .mp3 for audio files. Please see the FAQ if you have any additional questions.</p>
+        </div>
+    </div>
     <div class="row text-center">
         <div>
 
-            <?php
-            $this->db->where('node_id', $node_id);
-            $query = $this->db->get('nodes');
-            if ($query->row()->auto_slide_status):?>
-                <div class = 'small-12 medium-12 large-12 columns small-centered medium-centered large-centered'>
-                    <p>You have enabled the Automatic Slideshow Feature. Please enter the time that the tour narrator
-                     starts talking about the image in the audio file in the box below each image. Each time should be in seconds (no decimals).
-                    The times that you enter from left to right should increase, so make sure all of your images are in the correct
-                    order before you enter them.</p>
-                </div>
 
-                <audio controls style="max-width: 90%;">
-                    <source src="<?php echo $audio_url?>" type="audio/mpeg">
-                    Your browser does not support the audio tag.
-                </audio>
-                <form action = "<?php echo base_url();?>media/js/Slideshow2.js" method="POST">
-                <?php
-                    $input_num = 1;
 
-                    echo "<div style='align-items: center; display: flex; justify-content: center;'>";
-                    foreach ($image_urls as $image_url){
-                        echo "  <div style='display:inline-block; position:relative;
-                        margin: 30px 20px; width: 300px height: 300px '>";
-                        echo "    <img src='$image_url' style='height:100px; width: 100px; 
-                         vertical-align:top'>";
-                        echo "    <input type='text' name='timestamp$input_num' 
-                        style=' width: 50px; 
-                        position: absolute; left:25%; top:110% '>";
-                        echo "  </div>";
-                        $input_num+= 1;
+            <!--
+            <script>
+                document.getElementById("submit-button").addEventListener('click',postForm)
+                function postForm(error){
+                    error.preventDefault();
+                }
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'auto_slideshow_settings.php', true);
+                xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+                xhr.onload = function(){
+                    var times = [];
+                    times.push(0);
+                    let totalImages = <?php echo $image_num?>;
+                    let totalTimeEntries = totalImages -1; //because you don't enter time for first image
+
+                    for (entryNum = 1; entryNum<totalTimeEntries.length; entryNum++){
+
+                        console.log(entryNum);
+                        let curTime = document.getElementById("timestamp" + entryNum).value;
+                        times.push(curTime);
                     }
 
-                    echo "</div>";
-                ?>
+                xhr.send(times);
+            </script>
+            -->
 
-                
-                    
-                </form>
-
-            <?php endif; ?>
         </div>
     </div>
 
+
+
     <div class="row text-center">
-      <p><b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/';?>" target="_blank">View Node</a></b> &nbsp;&bull;&nbsp; <b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/qr.png';?>" target="_blank">QR Code</a></b> &nbsp;&bull;&nbsp; <b><a href="<?php echo base_url().'cms/node-settings/'.$tour_id.'/'.$node_id;?>">Node Settings</b></a></p>
-    </div>
-    <div class="row">
-      <div class="small-12 medium-12 large-12 columns small-centered medium-centered large-centered">
-        <p><b>Note:</b> You cannot upload more than twelve files or files larger than 2 MB each due to the limits of offline storage. If your files are too big, you can shrink them using a free image editor (like GIMP) or a free audio editor (like Audacity) and then upload them to your node. You also can only upload one audio file per node. <b>Accepted file types:</b> .jpg, .jpeg, .gif, .png, and .bmp for images; .mp3 for audio files. Please see the FAQ if you have any additional questions.</p>
-      </div>
-    </div>
-    <div class="row text-center">
-      <br><p class="text-center"><a href="<?php echo base_url();?>faq">Questions? See the FAQ.</a></p>
+      <p class="text-center"><a href="<?php echo base_url();?>faq">Questions? See the FAQ.</a></p>
       <p><a href="<?php echo base_url().'cms/home/'.$tour_id;?>">Back to your homepage.</a></p>
        <!--<br><p class="text-center"> If you are the user who owns this tour OR the site administrator, you can access the page.</p>-->
     </div>
-    <b><a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">Auto Slideshow Settings</b></a></p>
+
     <script src="/media/js/dropzone.min.js"></script>
     <script>
       var img_index = 1;
@@ -177,4 +190,7 @@
       function isMP3(file) {
         return file.name.split('.').pop().toLowerCase() == 'mp3';
       }
+
+
+
     </script>

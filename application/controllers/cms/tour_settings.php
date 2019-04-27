@@ -71,6 +71,13 @@
         // Otherwise, update the tour record.
         else {
           $this->load->model('build_model');
+
+          //make sure lat and long null instead of 0
+          if ($form_data['tour_lat'] == 0)
+              $form_data['tour_lat']=NULL;
+          if ($form_data['tour_long'] == 0)
+              $form_data['tour_long']=NULL;
+
           //check tour name
           if ($this_row->tour_name !== $form_data['tour_name']) {
             $this->db->where('tour_id', $this_row->tour_id);

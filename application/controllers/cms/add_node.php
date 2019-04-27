@@ -37,7 +37,14 @@
       // Otherwise, add the new node.
       else {
         // Create the database entry.
-        //if adding lat/long to the new node entry it would look like the block quotes below 
+        //if adding lat/long to the new node entry it would look like the block quotes below
+
+        //make sure lat and long null instead of 0
+        if ($form_data['node_lat'] == 0)
+            $form_data['node_lat']=NULL;
+        if ($form_data['node_long'] == 0)
+            $form_data['node_long']=NULL;
+
         $data = array(
           'tour_id' => $form_data['tour_id'],
           'node_name' => $form_data['node_name'],

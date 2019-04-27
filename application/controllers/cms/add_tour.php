@@ -34,7 +34,15 @@
       else {
         // Create the database entry.
         //to add tour lat and tour long to this array we would need to replace lines 36 to 40 with the following code
-        $data = array(
+
+          //make sure lat and long null instead of 0
+          //make sure lat and long null instead of 0
+          if ($form_data['tour_lat'] == 0)
+              $form_data['tour_lat']=NULL;
+          if ($form_data['tour_long'] == 0)
+              $form_data['tour_long']=NULL;
+
+          $data = array(
           'user_id' => $this->session->userdata('user_id'),
           'tour_name' => $form_data['tour_name'],
           'tour_location' => $form_data['tour_location'],

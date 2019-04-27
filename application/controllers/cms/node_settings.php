@@ -86,6 +86,13 @@
         // Otherwise, update the node record.
         else {
           $this->load->model('build_model');
+
+          //make sure lat and long null instead of 0
+          if ($form_data['node_lat'] == 0)
+              $form_data['node_lat']=NULL;
+          if ($form_data['node_long'] == 0)
+              $form_data['node_long']=NULL;
+
           if ($this_row->node_name !== $form_data['node_name']) {
             $this->db->where('node_id', $this_row->node_id);
             $count_check = $this->db->count_all_results('nodes');

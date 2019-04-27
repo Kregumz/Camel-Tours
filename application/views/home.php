@@ -10,9 +10,10 @@
           <div id="explore">Ready to Explore?</div>
           
           <p id="our-mission">Our Mission:</p>
-          <p id="mission-text">to help communities create on-site, self-guided tours for sharing nautral and cultural heritage via smarphone devices</p>
+          <p id="mission-text">to help communities create on-site, self-guided tours for sharing natural and cultural heritage via smart phone devices</p>
           <a href="<?php echo base_url();?>catalog" id="explore-tours" class="home-button">Explore Tours</a>
           <a href="<?php echo base_url();?>cms/home" id="create-a-tour" class="home-button">Create a Tour</a>
+
 
       </div>
 
@@ -30,8 +31,9 @@
             </div>
             <p id="want-to-learn">Want to learn more about CamelTours?</p>
             <a href="<?php echo base_url();?>whatis" id="learn-more" class="home-button">Learn More</a>
-            <!--<img id="camel-img" src="https://cameltours.org/media/img/CamelToursLogo.png" alt="Camel Tours Logo">-->
+            <img id="camel-image" src="https://cameltours.org/media/img/CamelToursLogo.png" alt="Camel Tours Logo">
         </div>
+
     <div id="homepage-submain3"> <!--to make the bottom of page same color-->
         <br>
     </div>

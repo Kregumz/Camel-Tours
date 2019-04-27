@@ -20,7 +20,7 @@
               <small class="error">A tour name is required.</small>
             </div>
             <div class="row">
-              <label>Tour Location (optional)</label>
+              <label>Tour Location</label>
               <input type="text" name="tour_location" value="<?php echo isset($form_data['tour_location']) ? $form_data['tour_location'] : ''; ?>" required>
               <small class="error">A tour location is required.</small>
             </div>
@@ -30,7 +30,7 @@
               <!--<small class="error">A tour latitude is required.</small>-->
             </div>
             <div class="row">
-              <label>Tour Longitude</label>
+              <label>Tour Longitude (optional)</label>
               <input type="text" name="tour_long" value="<?php echo isset($form_data['tour_long']) ? $form_data['tour_long'] : ''; ?>">
               <!--<small class="error">A tour longitude is required.</small>-->
             </div>
