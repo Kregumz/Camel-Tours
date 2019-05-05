@@ -33,14 +33,11 @@ class Auto_Slideshow_Settings extends CI_Controller
 
     }
     public function send_form($tour_id=-1, $node_id=-1) {
-        //Khanh said $this->input->post(name) lets you access each post
-        //So if you put in no parameters it might post everything
-        //So loop through and print each post to see it?
-        //foreach post in $this->input->post();
+
         $string = "";
         $i=0;
-        $curMin = 0;
-        $curTime = 0;
+        $curMin = 0; //time in seconds of the minutes entry
+
         //the sequence number of audio files is 0 and the first image is 1, so the first timestamp
         //is stored with the second image
         //the timestamp for the first image will just be set  to 0 in the javascript file
@@ -57,9 +54,10 @@ class Auto_Slideshow_Settings extends CI_Controller
 
             }
             else {
+                //when the entry is in seconds, get the total time by adding the remaining
+                //seconds to the minutes in seconds
                 $curTime= $curMin + $post;
                 $this->db->update('slides', array('timestamp' => $curTime));
-                $string.="i:".$i." ".$curTime." ";
                 $curSlide++;
             }
 
@@ -67,7 +65,7 @@ class Auto_Slideshow_Settings extends CI_Controller
 
         }
 
-        $this->index($tour_id, $node_id, array(), $string);
+        $this->index($tour_id, $node_id, array(), 'Changes Saved Successfully!');
 
     }
 

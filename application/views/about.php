@@ -17,8 +17,9 @@
               <li><a href="http://www.linkedin.com/in/amitkinha" target="_blank">Amit Kinha (B.A. '14, Computer Science)</a></li>
               <li><a href="http://www.linkedin.com/pub/dillon-kerr/75/b05/881" target="_blank">Dillon Kerr (B.A. '15, Computer Science)</a></li>
               <li><a href="http://www.juliaproft.com" target="_blank">Julia Proft (B.A. '16, Computer Science)</a></li>
-              <li><a href="https://www.linkedin.com/in/virginiagresham" target="_blank">Virginia Gresham ('17, Computer Science)</a></li>
-              <li><a href="https://www.linkedin.com/in/khanhnghiem/" target="_blank">Khanh Nghiem ('19, Computer Science)</a></li>
+              <li><a href="https://www.linkedin.com/in/virginiagresham" target="_blank">Virginia Gresham (B.A. '17, Computer Science)</a></li>
+              <li><a href="https://www.linkedin.com/in/khanhnghiem/" target="_blank">Khanh Nghiem (B.A. '19, Computer Science)</a></li>
+              <li><a href="https://www.linkedin.com/in/craighaber/" target="_blank">Craig Haber (B.A. '21, Computer Science)</a></li>
             </ul>
           </div>
         </div>

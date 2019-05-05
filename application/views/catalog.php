@@ -18,6 +18,11 @@
                 $tour_location= $tour[2];
                 $tour_id= $tour[5];
                 $img_url= $tour[6];
+                if ($tour_name == "Fair Street"){ //changing the deault image of fair street
+                    $img_url = 'ct/u15/t9/n94/media/57e9e0c363b74.jpg';
+                }
+
+
                 $tour_item ='
                 <div class="container" id="'.$tour_id.'">
                   <img src="'.base_url().''.$img_url.'" alt="'.$tour_name.'" class="image">

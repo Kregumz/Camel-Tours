@@ -33,6 +33,8 @@
             <li><a href="#q18">How do I record audio files using my iPhone?</a></li>
             <li><a href="#q19">How do I convert audio files to MP3 using MPEG Streamclip 1.2?</a></li>
             <li><a href="#q20">How do I convert text files to audio narrations?</a></li>
+            <li><a href="#q21">What is the Automatic Slide Show Feature?</a></li>
+            <li><a href="#q22">How do I enter the timestamps for the Automatic Slide Show Feature?</a></li>
           </ul>
           <br>
           <h4><a id="q1" href="#q1">How does the tour downloading work?</a></h4>
@@ -118,5 +120,27 @@
           <p>
             If you don’t want to read your tour, type it up and submit a written text document to  <a href="http://www.naturalreaders.com/priceorder.html " target="_blank"> this software </a> which will convert the text to a narration to use as the MP3 file for your node. If the program doesn't recognize a word - i.e. invalid (to make it someone who is handicap) you have to type in inva lid (with the space between the "a" and "l").  Also, you need to spell out years. An example would be that “1810” should be written out in your text document “eighteen-ten”.
           <p>
+          <h4><a id="q21" href="#q21">What is the Automatic Slide Show Feature?</a></h4>
+          <p>
+            The Automatic Slide Show feature allows you to synchronize the audio narration and images within any node.
+            It is particularly useful if you want people to see a tour landmark on-screen as they are learning about it.
+            You can determine the times in the audio narration that the images
+              appear on-screen by entering timestamps.
+            Then, the images will automatically appear on-screen at those times in the audio. Also, when the user swipes,
+            it will change the image on-screen to the next one in the sequence and cause the audio file to jump to where
+            it talks about that image.
+
+          </p>
+          <h4><a id="q22" href="#q22">How do I enter the timestamps for the Automatic Slide Show Feature?</a></h4>
+          <p>
+            After you enable the feature, upload your images and audio file in the node, and ensure that your images
+              are in the order that you want them to appear in the tour,
+              then you can click on the "Enable Slide Timestamps" button on the node homepage.
+              This will bring you to a page where you can listen to your audio file and below each image you can type
+              in the time when you want that image to appear. The time should be in minutes and seconds (like how it appears
+              in the audio file controls). For each image, the entry box to the left is where you enter minutes and the
+              entry box to the right is where you enter seconds.
+          </p>
+
       </div>
     </div>

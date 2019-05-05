@@ -17,8 +17,23 @@ if ($query->num_rows() > 0) {
     ksort($image_urls);
 }
 $image_num = count($image_urls);
-echo $error;
+
 ?>
+
+<?php
+if (isset($error)) {
+    echo "<div >";
+    echo "  <div data-alert=\"\" class=\"alert-box success round\" 
+                    style=\"display: block;margin: 0 auto;margin-top:20px;
+                    text-align:center; width: 400px;\">";
+    echo $error;
+    echo "  </div>";
+    echo "</div>";
+
+}
+?>
+
+
 <script>
 
 
@@ -51,14 +66,19 @@ echo $error;
                 document.getElementById("error-text").innerHTML = "Error: All the timestamps must be integers in minutes and seconds";
                 flag = false;
                 return flag;
-              } else if(curTime<0){
-                document.getElementById("error-text").innerHTML = "Error: You cannot have any timestamps at 00:00";
+              } else if(curTime==0){
+                document.getElementById("error-text").innerHTML = "Error: You must change the other timestamps so they are not at 00:00 because the first image is set to always appear at 00:00";
                 flag = false;
                 return flag;
-              } else if(curSec<0 || curSec>59){
+              } else if(curSec<0 || curSec>59) {
                 document.getElementById("error-text").innerHTML = "Error: All the seconds must be integers between 0 and 59";
                 flag = false;
                 return flag;
+              } else if (curTime > document.getElementById("audio").duration) {
+                document.getElementById("error-text").innerHTML = "Error: You cannot enter a timestamp that is greater than the total duration of the audio track";
+                flag = false;
+                return flag;
+
 
             }
             times.push(curTime);
@@ -110,7 +130,7 @@ echo $error;
     </div>
 
     <div>
-        <audio controls onplay="audio()" style="margin: 0 auto; display: block">
+        <audio controls onplay="audio()" style="margin: 0 auto; display: block" id="audio">
         <source src="<?php echo $audio_url?>" type="audio/mpeg">
         Your browser does not support the audio tag.
         </audio>
@@ -125,7 +145,11 @@ echo $error;
 
     <form action = "<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id.'/send-form';?>" onsubmit="return errorHandling()" method="POST">
         <?php
-        $input_num = 0;
+        $input_num = 0; //for labeling the entry box names
+        $seq_num = 1;  //for getting the timestamps from the database
+        $min_leading_0 = "";
+        $sec_leading_0 = "";
+
 
         echo "<div style='  flex-wrap: wrap; display: flex; justify-content: center;'>";
         foreach ($image_urls as $image_url){
@@ -134,16 +158,42 @@ echo $error;
             echo "    <img src='$image_url' class='slide' style=' height:100px; width: 100px; 
                              vertical-align:top'>";
             if ($input_num!=0){ //so you can't change time of first image
-                echo "    <input type='text' value='00' maxlength='2' id='min$input_num' name='min$input_num'
+                $this->db->where('node_id', $node_id);
+                $this->db->where('seq_num', $seq_num);
+                $query = $this->db->get('slides');
+                //get an array that just has the value of the timestamp at the row of the chose seq_num
+                $data = $query->result_array();
+                $curTime = $data[0]['timestamp'];  //the timestamp in total seconds
+                if (!isset($curTime)){ //if $curTime null (we know its set)
+                    $curMin = "00";
+                    $curSec = "00";
+                }  else{
+                    $curMin = floor($curTime/60); //the minutes segment of the timestamp
+                    $curSec = $curTime%60; //the remaining seconds segment of the timestamp
+                    //if the timestamp has a digit value for mins or sec, place a leading zero in front
+                    if ($curMin <= 9){
+                        $min_leading_0="0";
+                    }
+                    if ($curSec <= 9){
+                        $sec_leading_0="0";
+                    }
+                }
+
+                echo "    <input type='text' value=$min_leading_0$curMin maxlength='2' id='min$input_num' name='min$input_num'
                             style=' width: 35px; 
                             position: absolute; left:10%; top:110% '>";
                 echo "<div style='position: absolute; left:47.5%; top:120%; font-weight:bold;'>:</div> ";
-                echo "    <input type='text' value='00' maxlength='2' id='sec$input_num' name='sec$input_num'
+                echo "    <input type='text' value=$sec_leading_0$curSec maxlength='2' id='sec$input_num' name='sec$input_num'
                             style=' width: 35px; 
                             position: absolute; left:55%; top:110% '>";
+            } else{
+                echo "<div style='position: absolute; left:25%; top:120%; font-weight:bold;'>00 : 00</div>";
             }
             echo "  </div>";
             $input_num+= 1;
+            $seq_num++;
+            $min_leading_0 = "";
+            $sec_leading_0 = "";
         }
 
         echo "</div>";
@@ -155,10 +205,14 @@ echo $error;
             <input type="submit" onclick="errorHandling()" id="submit-button"
                    value="Submit Timestamps" class="tiny button" style="margin: 0 auto; display: block">
         </div>
+
         <br>
         <br>
-        <p style="text-align:center"><a
-              href="<?php echo base_url().'cms/node/'.$tour_id.'/'.$node_id;?>">Back to the upload page</a></p>
+        <b><p style ="text-align:center"><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/';?>" target="_blank">View Node</a></b></p>
+        <p style="text-align:center"><b><a
+                    href="<?php echo base_url().'cms/node/'.$tour_id.'/'.$node_id;?>">Back to the upload page</a></b></p>
+
+
 
 
 

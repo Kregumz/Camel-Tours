@@ -381,9 +381,39 @@
       	  ga('send', 'pageview');
           </script>";
 
+
         $this->db->where('node_id', $node_id);
         $query = $this->db->get('nodes');
         if ($query->row()->auto_slide_status){ //added this
+//            $timestamps = [];
+//            $curRow = 0;
+//            $h[] = "<div id=\"times\" style=\"display: none;\">";
+//            $h[] = "    <?php
+//
+//
+//
+//                            $node_id = $this->db->insert_id();
+//                            $this->db->where('node_id', $node_id);
+//                            $query = $this->db->get('slides');
+//                            if ($query->num_rows() > 0) {
+//                               foreach ($query->result() as $row) {
+//                                 $curRow = $row->seq_num;
+//                                 if ($row->seq_num >= 2){ //because timestamps are are saved stating with the second slide
+//                                    $curRow = $curRow -2;
+//                                    $timestamps[$curRow] = base_url().$row->timestamp;
+//                                 }
+//
+//                             }
+//
+//                         }
+//
+/*                        echo json_encode($timestamps)?>;";*/
+//            $h[] = "</div>";
+//
+//
+//            $h[] = "<script> var timesDiv = document.getElementById(times); var times = timesDiv.textContent</script>";
+
+
             $h[] = '<script src="'.base_url().'media/js/Slideshow2.js"></script>' ;
         }
           
@@ -449,7 +479,7 @@
       $h[] = '  </body>';
       $h[] = '</html>';
       // Define the node index file.
-      $node_file = getcwd().'/'.$tour_uri.'/n'.$node_id.'/index.html';
+      $node_file = getcwd().'/'.$tour_uri.'/n'.$node_id.'/index.php';
       // Create the HTML string to write to file.
       $html = implode("\n", $h);
       // Write the string!

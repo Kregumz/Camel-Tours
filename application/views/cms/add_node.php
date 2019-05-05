@@ -39,6 +39,12 @@
               <small class="error">A node longitude is required.</small>
             </div>
               <div class="row"><br> <!--Added this div-->
+                  <p>Do you want to synchronize your audio narration with your images
+                      so that the audio is always referring to the
+                  image onscreen? Then enable the Automatic Slide Show Feature! You can determine
+                      the times in the audio narration that images appear onscreen by typing in timestamps.
+                      You can learn more about it <a href="<?php echo base_url()."/faq#q21"?>">here</a>. You can
+                  always disable it in the settings if you wish.</p>
                   <input type="checkbox" name="auto_slide_status" value="true">
                   <label>Enable Automatic Slide Show Mode</label>
               </div>

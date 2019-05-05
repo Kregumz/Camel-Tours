@@ -32,6 +32,23 @@
         $this->load->view('templates/footer', $data);
 
     }
+      public function get_timestamps(){
+          $timestamps = [];
+          $node_id = $this->db->insert_id();
+          $this->db->where('node_id', $node_id);
+          $query = $this->db->get('slides');
+          if ($query->num_rows() > 0) {
+              foreach ($query->result() as $row) {
+                  if ($row->seq_num >= 2){ //because timestamps are are saved stating with the second slide
+                      $timestamps[$row->seq_num -2] = base_url().$row->timestamp;
+                  }
+
+              }
+
+          }
+          echo json_encode($timestamps);
+      }
+
     public function send_form($tour_id=-1, $node_id=-1) {
       // Boot the user if they are not logged in.
       $this->check_session();

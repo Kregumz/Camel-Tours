@@ -4,16 +4,17 @@
 
 <div id="homepage-main">
 <!--    <img id="home-img" src="https://www.conncoll.edu/media/new-media/campus-life/Aerial.jpg" alt="Connecticut College Trees" class="image">-->
-    <div id="outer-div">
-      <div id="homepage-submain">
-          <p id="welcome"><span id="qr-big" class="glyphicon glyphicon-qrcode"></span>CamelTours</p>
-          <div id="explore">Ready to Explore?</div>
-          
-          <p id="our-mission">Our Mission:</p>
-          <p id="mission-text">to help communities create on-site, self-guided tours for sharing natural and cultural heritage via smart phone devices</p>
-          <a href="<?php echo base_url();?>catalog" id="explore-tours" class="home-button">Explore Tours</a>
-          <a href="<?php echo base_url();?>cms/home" id="create-a-tour" class="home-button">Create a Tour</a>
 
+      <div id="homepage-submain">
+          <div id="homepage-submain-content">
+            <p id="welcome"><span id="qr-big" class="glyphicon glyphicon-qrcode"></span>CamelTours</p>
+            <div id="explore">Ready to Explore?</div>
+            <p id="our-mission">Our Mission:</p>
+            <p id="mission-text">to help communities create on-site, self-guided tours for sharing natural and cultural heritage via smart phone devices.</p>
+            <a href="<?php echo base_url();?>catalog" id="explore-tours" class="home-button">Explore Tours</a>
+            <a href="<?php echo base_url();?>cms/home" id="create-a-tour" class="home-button">Create a Tour</a>
+
+          </div>
 
       </div>
 
@@ -33,13 +34,13 @@
             <a href="<?php echo base_url();?>whatis" id="learn-more" class="home-button">Learn More</a>
             <img id="camel-image" src="https://cameltours.org/media/img/CamelToursLogo.png" alt="Camel Tours Logo">
         </div>
-
+    </div>
     <div id="homepage-submain3"> <!--to make the bottom of page same color-->
         <br>
     </div>
         
         
-    </div>
+
 
      
     

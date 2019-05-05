@@ -34,9 +34,10 @@
             and clicking on one of the thumbnails will bring you to the edit screen of that slide.</p>
           <?php
           if ($auto_slide_status):?>
-             <p> Also, you enabled the <b>Automatic Slide Show Feature</b>, so make sure to enter your timestamps when you are done by clicking
+             <p><b>Also, you enabled the Automatic Slide Show Feature, so make sure to enter your timestamps when you are done uploading
+                     images and audio by clicking
                   <a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">here</a> or by clicking
-            "Enter Slide Timestamps" down below.</p>
+                     "Enter Slide Timestamps" down below.</b></p>
           <?php endif; ?>
       </div>
     </div>
@@ -73,7 +74,7 @@
     <div class="row text-center">
         <p> <?php
             if ($auto_slide_status):?>
-                <b><a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">Enter Slide Timestamps</a></b>&nbsp;&bull;&nbsp;
+                <b><a href="<?php echo base_url().'cms/auto-slideshow-settings/'.$tour_id.'/'.$node_id;?>">Enter Slide Timestamps</a></b> &nbsp;&bull;&nbsp;
 
 
             <?php endif; ?><b><a href="<?php echo base_url().'ct/u'.$user_id.'/t'.$tour_id.'/n'.$node_id.'/';?>" target="_blank">View Node</a></b>
