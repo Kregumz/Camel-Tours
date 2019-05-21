@@ -89,34 +89,6 @@
         <div>
 
 
-
-            <!--
-            <script>
-                document.getElementById("submit-button").addEventListener('click',postForm)
-                function postForm(error){
-                    error.preventDefault();
-                }
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'auto_slideshow_settings.php', true);
-                xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-
-                xhr.onload = function(){
-                    var times = [];
-                    times.push(0);
-                    let totalImages = <?php echo $image_num?>;
-                    let totalTimeEntries = totalImages -1; //because you don't enter time for first image
-
-                    for (entryNum = 1; entryNum<totalTimeEntries.length; entryNum++){
-
-                        console.log(entryNum);
-                        let curTime = document.getElementById("timestamp" + entryNum).value;
-                        times.push(curTime);
-                    }
-
-                xhr.send(times);
-            </script>
-            -->
-
         </div>
     </div>
 

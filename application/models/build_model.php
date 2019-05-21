@@ -433,7 +433,7 @@
       $h[] = '		<div class="swiper-pagination"></div>';
       if ($audio_url) {
         $h[] = '      <div class="audiobar">';
-        $h[] = '        <audio id="node-audio" controls>';
+        $h[] = '        <audio id="node-audio" muted="muted" controls>';
         $h[] = '          <source src="'.$audio_url.'" type="audio/mpeg">';
         $h[] = '          Your browser does not support the audio tag.';
         $h[] = '        </audio>';

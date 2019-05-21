@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	=  'http://localhost:8080/public_html/';
+$config['base_url']	=  'localhost:8080/public_html/';
 
 /*
 |--------------------------------------------------------------------------

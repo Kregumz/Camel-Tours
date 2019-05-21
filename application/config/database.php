@@ -48,17 +48,21 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-//old username= 'camel_igniter'
-//old password= 'S5[6R7XPM('
+//username= 'camel_igniter'
+//password= 'S5[6R7XPM('
+
+//when hosting locally:
+//username= 'root'
+//password=''
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['username'] = 'camel_igniter';
+$db['default']['password'] = 'S5[6R7XPM(';
 $db['default']['database'] = 'camel_igniter';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
+$db['default']['db_debug'] = FALSE; //recieved error databse file doesn't exist, so changed this to false
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
 $db['default']['char_set'] = 'utf8';
